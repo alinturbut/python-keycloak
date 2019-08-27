@@ -44,10 +44,10 @@ The documentation for python-keycloak is available on [readthedocs](http://pytho
 ## Usage
 
 ```python
-from keycloak import Keycloak
+from keycloak import KeycloakOpenID
 
 # Configure client
-keycloak = Keycloak(server_url="http://localhost:8080/auth/",
+keycloak = KeycloakOpenID(server_url="http://localhost:8080/auth/",
                     client_id="example_client",
                     realm_name="example_realm",
                     client_secret_key="secret")
